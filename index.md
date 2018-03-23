@@ -24,6 +24,8 @@
     **_git pull origin master_**
 
 
+
+
 # Google Cloud Platform Fundamentals: Core Infrastructure
 
 ![image](./GCP_core_mindtree.png)
