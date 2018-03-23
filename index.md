@@ -1,37 +1,24 @@
-## Welcome to GitHub Pages
+# Most Frequent Daily Git Commands
 
-You can use the [editor on GitHub](https://github.com/columbia-yang-he/columbia-yang-he.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+1.	Create a new branch:<br><br>
+    **_git checkout -b feature_branch_name_**
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+2.	Edit, add and commit your files:<br><br>
+    **_git add ._**
 
-### Markdown
+3. If you want to add all file except one single file:<br><br>
+   **_git add -u_**<br><br>
+   **_git reset -- main/filename.txt_**
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+4.	Push your branch to the remote repository:<br><br>
+    **_git push -u origin feature_branch_name_**
 
-```markdown
-Syntax highlighted code block
+5.	Delete a local branch:<br><br>
+    **_git branch -d feature_branch_name_**    (merged)
+    **_git branch -D feature_branch_name_**    (hard deleted unmerged)
 
-# Header 1
-## Header 2
-### Header 3
+6.	Delete a remote branch:<br><br>
+    **_git push origin –-delete feature_branch_name_**
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/columbia-yang-he/columbia-yang-he.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+7.	Update local master with remote master branch:<br><br>
+    **_git pull origin master_**
