@@ -12,6 +12,8 @@
 
 4.	Push your branch to the remote repository:<br><br>
     **_git push -u origin feature_branch_name_**
+    later when you just want to update your local to remote:<br><br>
+    **_git push origin HEAD**
 
 5.	Delete a local branch:<br><br>
     **_git branch -d feature_branch_name_**    (merged)
@@ -20,8 +22,10 @@
 6.	Delete a remote branch:<br><br>
     **_git push origin –-delete feature_branch_name_**
 
-7.	Update local master with remote master branch:<br><br>
-    **_git pull origin master_**
+7.	Update your local with remote master branch:<br><br>
+    method 1:**_git pull origin master_**<br><br>
+    method 2: step 1: **_git fetch origin_**<br>
+              step 2: **_git merge origin master_**
 
 
 
