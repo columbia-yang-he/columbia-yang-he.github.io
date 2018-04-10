@@ -43,4 +43,32 @@
 
 The following diagram is a mind map I created for GCP platform after went to the onsite training hosted by Google. <br><br>
 
-![image](./GCP_core_mindtree.png)
+![image](./GCP_core_mindtree.png)<br><br>
+
+# Most Frequent Daily MongoDB Shell Commands
+
+1.	Connect to databases on the server:
+
+    **_mongo --username XXX --password XXX --host XXX --port XXX_**<br><br>
+
+1.	Show list of databases on the server:
+
+    **_show dbs_**<br><br>
+    
+2.	Check collections:
+
+    **_show collections_**<br><br>
+    
+3. Switch to certain database:
+
+    **_use <db'\>'_**<br><br>
+    
+4.	Backup a copy from the remote db:
+
+ **_mongodump --host XXX --port XXX --out /path/to/the/backup/ --db name_**<br><br>
+ 
+5.	Restore remote db from local copy:
+
+**_mongorestore --host XXX --port XXX /path/to/the/copy/ --db name_**<br><br>
+ 
+ 
