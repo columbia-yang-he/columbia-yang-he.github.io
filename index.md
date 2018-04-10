@@ -61,14 +61,14 @@ The following diagram is a mind map I created for GCP platform after went to the
     
 3. Switch to certain database:
 
-    **_use <db'\>'_**<br><br>
+    **_use <db\>_**<br><br>
     
 4.	Backup a copy from the remote db:
 
- **_mongodump --host XXX --port XXX --out /path/to/the/backup/ --db name_**<br><br>
+   **_mongodump --host XXX --port XXX --out /path/to/the/backup/ --db name_**<br><br>
  
 5.	Restore remote db from local copy:
 
-**_mongorestore --host XXX --port XXX /path/to/the/copy/ --db name_**<br><br>
+   **_mongorestore --host XXX --port XXX /path/to/the/copy/ --db name_**<br><br>
  
  
