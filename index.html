@@ -14,9 +14,7 @@
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
   <!-- Custom fonts for this template -->
-  <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:100,200,300,400,500,600,700,800,900"
-    rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i"
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700&family=Newsreader:wght@300;400;500;600;700&display=swap"
     rel="stylesheet">
   <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet">
   <link href="vendor/devicons/css/devicons.min.css" rel="stylesheet">
@@ -24,18 +22,30 @@
 
   <!-- Custom styles for this template -->
   <link href="css/resume.min.css" rel="stylesheet">
+  <link href="css/modern.css" rel="stylesheet">
 
 </head>
 
-<body id="page-top">
+<body id="page-top" class="theme-neo theme-light">
+  <div class="bg-effects" aria-hidden="true">
+    <span class="bg-orb orb-1"></span>
+    <span class="bg-orb orb-2"></span>
+    <span class="bg-grid"></span>
+  </div>
 
   <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
     <a class="navbar-brand js-scroll-trigger" href="#page-top">
       <span class="d-block d-lg-none">Yang(Chris) He</span>
       <span class="d-none d-lg-block">
-        <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/profile.jpg" alt="">
+        <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/profile.png" alt="Headshot of Yang He">
       </span>
     </a>
+    <button class="theme-toggle" type="button" aria-label="Toggle color theme" title="Toggle color theme">
+      <span class="toggle-track">
+        <span class="toggle-thumb"></span>
+      </span>
+      <span class="toggle-label">Theme</span>
+    </button>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
       aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -72,41 +82,47 @@
 
   <div class="container-fluid p-0">
 
-    <section class="resume-section p-3 p-lg-5 d-flex d-column" id="about">
-      <div class="my-auto">
-        <h1 class="mb-0">Yang(Chris)
-          <span class="text-primary">He</span>
-        </h1>
-        <div class="subheading mb-5">
-          Tech Leader | Software and Systems Architect 
+    <section class="resume-section p-3 p-lg-5 d-flex d-column modern-section hero-section" id="about">
+      <div class="hero-shell">
+        <div class="hero-card">
+          <div class="hero-glow"></div>
+          <div class="hero-layer hero-depth"></div>
+          <div class="hero-content my-auto">
+            <h1 class="mb-0">Yang(Chris)
+              <span class="text-primary">He</span>
+            </h1>
+            <div class="subheading mb-5">
+              Tech Leader | Software and Systems Architect 
+            </div>
+            <div class="subheading mb-5">Great New York Area
+              <a href="mailto:name@email.com">heyang87@gmail.com</a>
+            </div>
+            <p class="mb-5">
+              Experienced Software & Systems Architect with 10+ years of success leading full-stack web, mobile, and cloud-based SaaS product development. Proven track record of delivering high-impact platforms used by millions, including AI-powered applications, microservices architectures, and scalable cloud systems on GCP, AWS and Azure. Proficient in modern tech stacks (React, TypeScript, Python, Node.js, Android, iOS), databases (PostgreSQL, MongoDB, Firebase, Redis), and DevOps practices. Certified Scrum Master and Agile Professional with a strong ability to lead cross-functional teams across global time zones. Passionate about leveraging emerging technologies—AI, automation, SEO, and data analytics—to build intelligent, user-focused products that drive engagement and business growth.</p>
+            <ul class="list-inline list-social-icons mb-0">
+              <li class="list-inline-item">
+                <a href="https://www.linkedin.com/in/yang-he-a7023725/">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://github.com/columbia-yang-he">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+            </ul>
+          </div>
         </div>
-        <div class="subheading mb-5">Great New York Area
-          <a href="mailto:name@email.com">heyang87@gmail.com</a>
-        </div>
-        <p class="mb-5">
-          Experienced Software & Systems Architect with 10+ years of success leading full-stack web, mobile, and cloud-based SaaS product development. Proven track record of delivering high-impact platforms used by millions, including AI-powered applications, microservices architectures, and scalable cloud systems on GCP, AWS and Azure. Proficient in modern tech stacks (React, TypeScript, Python, Node.js, Android, iOS), databases (PostgreSQL, MongoDB, Firebase, Redis), and DevOps practices. Certified Scrum Master and Agile Professional with a strong ability to lead cross-functional teams across global time zones. Passionate about leveraging emerging technologies—AI, automation, SEO, and data analytics—to build intelligent, user-focused products that drive engagement and business growth.</p>
-        <ul class="list-inline list-social-icons mb-0">
-          <li class="list-inline-item">
-            <a href="https://www.linkedin.com/in/yang-he-a7023725/">
-              <span class="fa-stack fa-lg">
-                <i class="fa fa-circle fa-stack-2x"></i>
-                <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
-              </span>
-            </a>
-          </li>
-          <li class="list-inline-item">
-            <a href="https://github.com/columbia-yang-he">
-              <span class="fa-stack fa-lg">
-                <i class="fa fa-circle fa-stack-2x"></i>
-                <i class="fa fa-github fa-stack-1x fa-inverse"></i>
-              </span>
-            </a>
-          </li>
-        </ul>
       </div>
     </section>
 
-    <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="experience">
+    <section class="resume-section p-3 p-lg-5 d-flex flex-column modern-section no-tilt" id="experience">
       <div class="my-auto">
         <h2 class="mb-5">Work Experience</h2>
         <div class="resume-item d-flex flex-column flex-md-row mb-5">
@@ -114,6 +130,7 @@
             <h3 class="mb-0">Director of Systems Architecture</h3>
             <div class="subheading mb-3">Huckleberry Labs</div>
             <p>Enhanced mobile app and website architecture, achieving 4.9★ rating, 2M+ MAU and 1.5M+ MRR.</p>
+            <p>Leading systems architecture and AI engineering to build scalable, high-performance AI solutions.</p>
             <p>Led enterprise-level platform integrations, including Amplitude CDP, A/B testing, session replay tools and BigQuery Data Warehouse with ETL pipeline, collaborating with cross-functional teams to drive a 3× increase in revenue and a 35.7% boost in conversion rates.</p>
             <p>Developed a microservices strategy and let serverless backend migration, facilitating seamless integration and leading to increased deployment efficiency and performance.</p>
             <p>Collaborated with stakeholders, aligning development with business goals.</p>
@@ -245,7 +262,7 @@
 
     </section>
 
-    <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="education">
+    <section class="resume-section p-3 p-lg-5 d-flex flex-column modern-section" id="education">
       <div class="my-auto">
         <h2 class="mb-5">Education</h2>
 
@@ -318,7 +335,7 @@
       </div>
     </section>
 
-    <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="skills">
+    <section class="resume-section p-3 p-lg-5 d-flex flex-column modern-section" id="skills">
       <div class="my-auto">
         <h2 class="mb-5">Skills</h2>
 
@@ -403,7 +420,7 @@
         </ul>
       </div>
     </section>
-    <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="side-projects">
+    <section class="resume-section p-3 p-lg-5 d-flex flex-column modern-section" id="side-projects">
       <div class="my-auto">
         <h2 class="mb-5">Side Projects</h2>
         <ul class="fa-ul mb-0">
@@ -473,14 +490,14 @@
         </ul>
       </div>
     </section>
-    <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="interests">
+    <section class="resume-section p-3 p-lg-5 d-flex flex-column modern-section" id="interests">
       <div class="my-auto">
         <h2 class="mb-5">Interests</h2>
         <p>Full Stack Mobile and Web development, Artificial Intelligence, Machine Learning, Keep learning new things.
         </p>
       </div>
     </section>
-    <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="publications">
+    <section class="resume-section p-3 p-lg-5 d-flex flex-column modern-section" id="publications">
       <div class="my-auto">
         <h2 class="mb-5">Publications</h2>
         <ul class="fa-ul mb-0">
@@ -543,7 +560,7 @@
         </ul>
       </div>
     </section>
-    <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="certifications">
+    <section class="resume-section p-3 p-lg-5 d-flex flex-column modern-section" id="certifications">
       <div class="my-auto">
         <h2 class="mb-5">Certifications</h2>
         <ul class="fa-ul mb-0">
@@ -607,6 +624,7 @@
 
   <!-- Custom scripts for this template -->
   <script src="js/resume.min.js"></script>
+  <script src="js/modern.js"></script>
 
 </body>
 
