@@ -326,11 +326,11 @@ body.theme-neo.theme-light .resume-item {
 }
 
 body.theme-neo.theme-light .list-social-icons a .fa-circle {
-  color: rgba(37, 99, 235, 0.16);
+  color: rgba(37, 99, 235, 0.35);
 }
 
 body.theme-neo.theme-light .list-social-icons a .fa-inverse {
-  color: #e2e8f0;
+  color: #1e3a5f;
 }
 
 .list-icons {
